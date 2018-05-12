@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 4.7 + -->
+    <!-- title bar -->
+    <dimen name="test">60dp</dimen>
+    <dimen name="test1">65dp</dimen>
+    <dimen name="titlelifeleft">10dp</dimen>
+    <!-- solution dialog -->
+    <dimen name="soldiawid">380dp</dimen>
+    <dimen name="soldiaheight">250dp</dimen>
+    <dimen name="soltvleft">160dp</dimen>
+    <dimen name="solimgwidth">150dp</dimen>
+    <dimen name="solimgheight">120dp</dimen>
+    <!-- clue dialog -->
+
+    <dimen name="cluediawid">380dp</dimen>
+    <dimen name="cluediaheight">250dp</dimen>
+    <dimen name="cluetvleft">160dp</dimen>
+    <dimen name="clueimgwidth">150dp</dimen>
+
+
+    <!-- level2 xml -->
+    <dimen name="level2imgageleftmarg">90dp</dimen>
+    <dimen name="level2imgagetopmarg">70dp</dimen>
+
+</resources>
+
+

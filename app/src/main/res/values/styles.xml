@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+
+    <style name="CustomWindowTitleBarBG">
+
+
+        <item name="android:background">@color/primary_dark</item>
+    </style>
+
+    <style name="TitleBarTheme" parent="android:Theme">
+
+
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBarBG</item>
+    </style>
+
+
+    <style name="AppThemenobar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.transparent" parent="android:Theme">
+
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+
+
+    <style name="normalText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">19sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#39dc34</item>
+    </style>
+
+    <style name="blinkText" parent="normalText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="AppThemelevelno" parent="AppBaseTheme">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Toolbar Theme / Apply white arrow -->
+        <item name="colorControlNormal">@android:color/white</item>
+
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fadein_dialog</item>
+        <item name="android:windowExitAnimation">@anim/fadeout_dialog</item>
+
+
+    </style>
+
+    <style name="AppTheme1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+        </style>
+
+        <style name="cart_dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+            <item name="android:windowFrame">@null</item>
+            <!-- 边框 -->
+            <item name="android:windowIsFloating">true</item>
+            <!-- 是否浮现在activity之上 -->
+            <item name="android:windowIsTranslucent">true</item>
+            <!-- 半透明 -->
+            <item name="android:windowNoTitle">true</item>
+            <!-- 背景透明 -->
+            <item name="android:backgroundDimEnabled">true</item>
+            <!-- 模糊 -->
+        </style>
+
+
+</resources>

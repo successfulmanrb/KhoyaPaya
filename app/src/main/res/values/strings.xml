@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">KhoyaPaya</string>
+    <string name="level51">Can You Drink the Water</string>
+    <string name="level61">What should you need to do </string>
+    <string name="level4t1">Need Energy </string>
+    <string name="level7tv">What has a head and
+        \n a tail, but no body?</string>
+    <string name="level3tv">What\'s your Strength in \% </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_demo_list">Items</string>
+    <string name="title_demo_detail">Demo Detail</string>
+    <string name="title_activity_demo">CircularFloatingActionMenu</string>
+    <string name="title_activity_menu_with_fab">Floating Action Button</string>
+    <string name="title_activity_menu_with_custom_action_button">Custom Action Button</string>
+    <string name="title_activity_menu_with_custom_animation">Custom Animation</string>
+    <string name="title_activity_menu_in_scroll_view">Menu in ScrollView Sample</string>
+    <string name="title_activity_system_overlay">System Overlay Menu Sample</string>
+    <string name="cancel">Cancel</string>
+    <string name="reveal">Reveal</string>
+    <string name="solution"><b>SOLUTION</b></string>
+    <string name="solution_come_here">Solution come here</string>
+    <string name="flipinimage">flipinimage</string>
+    <string name="flipoutimage">flipoutimage</string>
+    <string name="cluelevel1">Person is unable to hear the voice of other one .
+    Can you increase person\'s voice ?</string>
+    <string name="cluelevel2">Light Brings Happiness in Once Life!</string>
+    <string name="cluelevel3"><b>Your</b> here is Device Strength</string>
+    <string name="cluelevel4">Can you Give Energy to your Device? Yes So Do it!</string>
+    <string name="cluelevel5">How you Drink the Water from a Glass? So do the same For it.</string>
+    <string name="cluelevel6">Every Problem Have Solution in Itself.</string>
+    <string name="cluelevel7">It is a thing That make Somone Rich.</string>
+    <string name="solutionlevel1">Turn Up your Device volume to its Max. So that person can hear the sound </string>
+    <string name="solutionlevel2">Turn Your Brightness Level To Bring Light !</string>
+    <string name="solutionlevel3">Enter Your Current Battery Percentage.</string>
+    <string name="solutionlevel4">Plug Your Phone On Charge To Provide Enerfy To SuperHero !</string>
+    <string name="solutionlevel5">Tilt Your Phone In a Position So that you can drink Water .</string>
+    <string name="solutionlevel6">Longpress The Bumb and Drag it aside You Find a Switch to Turn It off.</string>
+    <string name="solutionlevel7">Press the coin present At the right top corner of your Screen .</string>
+    <string name="cross1">Lestening Music At High volume is a bad habit.Listening to your own is best.</string>
+    <string name="cross2">Make others happy that make you happy more :)</string>
+    <string name="put_the_thief_into_the_lock_to_stop_him_stolen_the_things">Put the thief into the lock to stop him stolen the things</string>
+    <string name="lick_icecream_to_cross_the_level">Lick Icecream to cross the level</string>
+    <string name="provide_some_money_to_beggar">Provide some money to beggar !</string>
+    <string name="you_are_in_airplane_happy_journey_but_must_follow_the_rule">You are in airplane! <b>Happy Journey</b> but must follow the rule</string>
+    <string name="developer_want_to_tell_you_some_secret_can_yoou_listern_it_in_private_place">Developer want to tell you some secret! Can you listen it in private place?</string>
+    <string name="solutionlevel8">Press your lock button to lock the Thief</string>
+    <string name="solutionlevel9">you really lick the screen ? its only need your patience</string>
+    <string name="solutionlevel10">Drag \"money\" from sentence itself</string>
+    <string name="solutionlevel_11">knock on door 3 times to enter in class by double tap 3 times !</string>
+    <string name="solutionlevel_13">Turn On Airplane Mode to follow the rule</string>
+    <string name="solutionlevel_14">Put your ear plus to listern developer secret !</string>
+    <string name="solutionlevel_15">Shake your phone to open the bottle cap</string>
+    <string name="solutionlevel_17">Kiss the chicks of cute baby !</string>
+    <string name="i_am_not_getting_what_are_you_saying_be_louder">I am not getting what are you saying ? Be louder !</string>
+    <string name="solutionlevel0_12">Bringout Sun Hidden in Cloud so that sunflower can bloom</string>
+    <string name="solutionlevel1_12">Take your your in sunlight to bloom the sunflower</string>
+    <string name="what_s_your_strength_in">What\'s your Strength in %</string>
+    <string name="close"><b>CLOSE</b></string>
+    <string name="clue"><b>CLUE</b></string>
+    <string name="loading">Loading</string>
+    <string name="solutionlevel0_16">Do the walk using your finger on trade mill 10 times</string>
+    <string name="solutionlevel1_16">you need to do atleast 8 real walk on trade mill by holding it in your hand</string>
+    <string name="title_activity_level_selector">LevelSelector</string>
+
+    <!-- number levels-->
+    <!-- number levels-->
+    <string name="big_small_textview">Memorise the number and tap to cotinue</string>
+    <string name="invert_image1">=      3</string>
+    <string name="invert_image2">=      9</string>
+    <string name="invert_ques">=      ?</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="ok">ok</string>
+    <string name="calendar_textView">Name an exact amount of months lasting for 28 days?</string>
+    <string name="muladdques">x+y+z=x*y*z \n xyz=?</string>
+    <string name="ascenques">Tap orderly</string>
+
+    <!-- basic layout-->
+    <string name="play">play</string>
+    <string name="instructions">instructions</string>
+
+<string name="shopdialog"><b>Various Deals will be coming soon</b></string>
+    <string name="ascclue">Here orderly means increasing order</string>
+    <string name="ascsol">Tap the number in the order 1 2 3 4 </string>
+    <string name="calclue">Except february, does any month have 28 days</string>
+    <string name="calsol">All 12 months have 28 days, mark your answer 12</string>
+    <string name="invertclue">Visualise the currency sharply</string>
+    <string name="invertsol">6 + 3 = 9</string>
+    <string name="smallestclue">3 is the smallest number</string>
+    <string name="smallestsol">333</string>
+    <string name="nosumclue">See the number in circles keenly</string>
+    <string name="nosumsol">Select two numbers whose sum is asked</string>
+    <string name="seriesclue">Do addition operation between numbers</string>
+    <string name="seriessol">nth number=(n-1)th number + sum of 1st to (n-1)th number</string>
+    <string name="primeclue">Revise properties of prime and non prime numbers</string>
+    <string name="primesol">Except 51 every number is a prime number</string>
+    <string name="patternclue">Do operations addition and subtraction among the numbers</string>
+    <string name="patternsol">8+7=16  1+5=6\n
+    8-7=1 so\n
+    6+3=9 6-3=3</string>
+    <string name="numdigclue">Differentiate number and word</string>
+    <string name="numdigsol">2 is the number else are words representing number</string>
+    <string name="operationsclue">See the question keenly</string>
+    <string name="operationssol">Do the displayed operation asap and dont forget the question</string>
+    <string name="muladdclue">The digits lie between 0 and 5</string>
+    <string name="muladdsol">123 is such a number which makes you smart</string>
+<string name="inst">&#8226; The player can enhance his knowldge via this KHOYAPAYA.&lt;br /&gt;&lt;br /&gt;
+&#8226; Play option will redirect you to the options where two different aspects of the KhoyaPaya exists.&lt;br /&gt;&lt;br /&gt;
+&#8226;Player can play only Part1 initially and Part2 is lock.&lt;br /&gt;&lt;br /&gt;
+&#8226;After crossing the five different levels of Part1, user is allowed to play Part2.&lt;br /&gt;&lt;br /&gt;
+&#8226;The three lives are provided in the game.&lt;br /&gt;&lt;br /&gt;
+&#8226;Each live is of 30 seconds.&lt;br /&gt;&lt;br /&gt;
+&#8226;Player is provided initially with 10 coins so that if he wish he can view clue and solution.&lt;br /&gt;&lt;br /&gt;
+&#8226;After loosing 3 lives, the game will stop till the lives come back.&lt;br /&gt;&lt;br /&gt;
+&#8226;The lives come backafter 30 minutes.&lt;br /&gt;&lt;br /&gt;
+&#8226;Hope the player will enjoy the game.&lt;br /&gt;&lt;br /&gt;</string>
+    <string name="level_sound">Level Sound</string>
+</resources>

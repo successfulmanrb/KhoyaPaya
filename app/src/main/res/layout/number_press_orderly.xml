@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:text="@string/ascenques"
+                android:textColor="#6ce634"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19"
+                android:id="@+id/bno1"
+                android:textSize="25dp"
+                android:layout_weight=".5"
+                android:textColor="#153002"
+                android:layout_margin="2dp"
+                android:textStyle="bold"
+                android:onClick="sequence"
+                android:background="@drawable/numdig"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="37"
+                android:id="@+id/bno2"
+                android:textSize="25dp"
+                android:layout_weight=".5"
+                android:layout_margin="2dp"
+                android:textColor="#153002"
+                android:textStyle="bold"
+                android:onClick="sequence"
+                android:background="@drawable/numdig"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38"
+                android:textSize="25dp"
+                android:id="@+id/bno3"
+                android:layout_margin="2dp"
+                android:layout_weight=".5"
+                android:textColor="#153002"
+                android:textStyle="bold"
+                android:onClick="sequence"
+                android:background="@drawable/numdig"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="75"
+                android:textSize="25dp"
+                android:layout_margin="2dp"
+                android:textColor="#153002"
+                android:textStyle="bold"
+                android:layout_weight=".5"
+                android:id="@+id/bno4"
+                android:background="@drawable/numdig"
+                android:onClick="sequence"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#80ffffff"
+    android:paddingLeft="16dp"
+
+    android:weightSum="1">
+
+
+<!--android:background=#80ffffff-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Well Done "
+        android:textColor="#0e0e0e"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Things to tell "
+
+        android:textColor="#fceeaf"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/tvoncross"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/textView15"
+
+         />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="NEXT"
+        android:background="#080808"
+        android:id="@+id/dialogbutton"
+        android:layout_gravity="center_horizontal"
+android:textColor="#f7f2f2"
+        android:layout_weight="0.04"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp" />
+    </RelativeLayout>
+

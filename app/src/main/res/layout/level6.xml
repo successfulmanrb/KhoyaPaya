@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/level61"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:id="@+id/tv1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:background="@drawable/level6switchon"
+        android:id="@+id/swtchoff"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="100dp"
+        android:layout_alignLeft="@+id/tv1"
+        android:layout_alignStart="@+id/tv1"
+        android:layout_alignBaseline="@+id/openlamp"/>
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="270dp"
+        android:background="@mipmap/level6lampopenn"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/openlamp"
+        android:layout_marginRight="10dp" />
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="270dp"
+        android:background="@mipmap/lampclose"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/closelamp"
+        android:visibility="gone"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

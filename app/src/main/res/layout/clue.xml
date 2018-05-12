@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_dark"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clue"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#e7c23b"
+        />
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayoutclue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp">
+
+        <com.cooltechworks.views.ScratchImageView
+            android:id="@+id/scratchView1clue"
+            android:layout_width="@dimen/cluediawid"
+            android:layout_height="@dimen/cluediaheight"
+            android:visibility="gone"
+            android:layout_marginRight="20dp" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tvclueid"
+            android:visibility="gone"
+            android:text="@string/loading"/>
+        <ImageView
+            android:layout_width="@dimen/clueimgwidth"
+            android:layout_height="@dimen/clueimgheight"
+            android:layout_gravity="bottom"
+            android:background="@drawable/treasureopen"
+            android:id="@+id/clueflipout"
+            android:visibility="gone"
+            android:contentDescription="@string/flipoutimage" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cluediaheight"
+            android:background="@drawable/fabtreasureicon"
+            android:id="@+id/solutionflipinclue"
+            android:contentDescription="@string/flipinimage" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cluediaheight"
+            android:background="@drawable/treasureopen"
+            android:id="@+id/solutionflipoutclue"
+            android:visibility="gone"
+            android:contentDescription="@string/flipoutimage" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#006898"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/close"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvcancelclue"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/clue"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/cluetvleft"
+            android:id="@+id/tvclue"
+            android:clickable="true"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

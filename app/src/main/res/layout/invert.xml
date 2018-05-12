@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:id="@+id/image1"
+        android:src="@drawable/dollar"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/invertimage"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847"
+        app:layout_constraintRight_toRightOf="@+id/invertimage"
+        app:layout_constraintLeft_toLeftOf="@+id/invertimage"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invert_image1"
+        android:id="@+id/image1_value"
+        android:textColor="#fcdb05"
+        android:textSize="30dp"
+
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/image2_value"
+        android:layout_marginTop="171dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:id="@+id/image2"
+        android:src="@drawable/rupees"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintRight_toRightOf="@+id/plus_sign"
+        app:layout_constraintLeft_toLeftOf="@+id/plus_sign"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toBottomOf="@+id/image2copy"
+        app:layout_constraintTop_toTopOf="@+id/image2copy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invert_image2"
+        android:id="@+id/image2_value"
+        android:textColor="#fcdb05"
+        android:textSize="30dp"
+
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginTop="30dp"
+        app:layout_constraintVertical_bias="0.513"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/arrow" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/arrow"
+        android:scaleX="-1"
+        android:src="@drawable/arrow"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout3"
+        tools:layout_constraintLeft_creator="1"
+
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout3"
+        android:layout_marginBottom="1dp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:id="@+id/invertimage"
+        android:src="@drawable/rupees"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/arrow"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintRight_toLeftOf="@+id/image1_value"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/arrow"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/plus_sign"
+        android:textColor="#fcdb05"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/image1_value"
+        app:layout_constraintTop_toBottomOf="@+id/image1_value"
+        app:layout_constraintVertical_bias="0.425"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.35" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:id="@+id/image2copy"
+        android:src="@drawable/dollar"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/invertimage"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintTop_toTopOf="@+id/image1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invert_ques"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#fcdb05"
+        android:id="@+id/question_mark"
+        app:layout_constraintBaseline_toBaselineOf="@+id/plus_sign"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginStart="25dp"
+        app:layout_constraintLeft_toLeftOf="@+id/image1_value"
+        android:layout_marginLeft="25dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:id="@+id/ok"
+        android:background="@drawable/muladdbutton"
+        android:onClick="but_cli"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image2"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginEnd="43dp">
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/muladdbutton"
+            android:onClick="but_cli"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/muladdbutton"
+            android:textSize="30dp"
+            android:textColor="#fc5102"
+            android:padding="10dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="New Text" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/muladdbutton"
+            android:onClick="but_cli"
+
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

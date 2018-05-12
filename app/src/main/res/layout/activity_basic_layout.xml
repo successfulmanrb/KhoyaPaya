@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myvision.khoyapaya.BasicLayout">
+
+
+    <Button
+        android:id="@+id/basic_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/play" />
+
+    <Button
+        android:id="@+id/basic_instr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/basic_play"
+        android:layout_alignRight="@+id/basic_play"
+        android:layout_below="@+id/basic_play"
+        android:layout_marginTop="49dp"
+        android:text="@string/instructions" />
+
+    <Button
+        android:id="@+id/basic_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/basic_instr"
+        android:layout_alignRight="@+id/basic_instr"
+        android:layout_below="@+id/basic_instr"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="47dp"
+        android:text="Settings" />
+</RelativeLayout>

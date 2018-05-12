@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- russian-->
+    <string name="level_sound">Уровень звука</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myvision.khoyapaya.splash.Splash"
+    android:id="@+id/cl"
+    android:background="@drawable/sp3"
+    >
+
+    <com.myvision.khoyapaya.GifView
+        android:id="@+id/gif_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="247dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.029999971"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:id="@+id/imageView"
+        android:src="@drawable/image"
+        />-->
+
+    <com.myvision.khoyapaya.splash.Typewriter
+        android:id="@+id/khoyapaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#8c620f"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/myvision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="MyVision"
+        android:textStyle="bold"
+
+        android:textColor="#947a1d"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/presents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myvision"
+        android:layout_alignLeft="@+id/myvision"
+        android:layout_alignStart="@+id/myvision"
+        android:layout_marginBottom="94dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:textSize="36sp"
+        android:textColor="#efdf63"
+        android:text="presents" />
+
+    <TextView
+        android:id="@+id/puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="A Game Of Puzzle"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#b7b5b5"
+        android:layout_below="@+id/myvision"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp" />
+
+
+</RelativeLayout>

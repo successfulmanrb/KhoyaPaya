@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/solution"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:textColor="#e7c23b"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayout"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp">
+
+        <com.cooltechworks.views.ScratchImageView
+            android:id="@+id/scratchView1"
+            android:layout_width="@dimen/soldiawid"
+            android:layout_height="@dimen/soldiaheight"
+android:visibility="gone"
+            android:layout_marginRight="16dp"
+            />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tvsolutionid"
+            android:visibility="gone"
+            android:text="@string/loading"/>
+           <!-- android:textColor="@color/primary_dark" -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soldiaheight"
+        android:background="@drawable/fabtreasureicon"
+
+        android:id="@+id/solutionflipin"
+        android:contentDescription="@string/flipinimage" />
+    <ImageView
+        android:layout_width="@dimen/solimgwidth"
+        android:layout_height="@dimen/solimgheight"
+        android:layout_gravity="bottom"
+        android:background="@drawable/treasureopen"
+        android:id="@+id/solutionflipout"
+        android:visibility="gone"
+        android:contentDescription="@string/flipoutimage" />
+
+    </FrameLayout>
+
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvsol"
+        android:text="Solution come here"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"/-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#006898"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/frameLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/close"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvcancelsol"
+            android:clickable="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/solution"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/soltvleft"
+            android:id="@+id/buttonrevealsol"
+            android:clickable="true"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp3"
+    tools:context="com.myvision.khoyapaya.ChoiceActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/imgnumberchoice"
+
+        android:background="@drawable/choicenumber"
+        android:layout_marginRight="96dp"
+        android:layout_marginEnd="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:id="@+id/imgcontrolchoice"
+        android:background="@drawable/choicecontrol"
+        android:layout_marginBottom="131dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imgnumberchoice"
+        android:layout_alignStart="@+id/imgnumberchoice" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+          <!-- title bar -->
+    <dimen name="test">45dp</dimen>
+    <dimen name="test1">35dp</dimen>
+    <dimen name="titlelifeleft">8dp</dimen>
+
+           <!-- solution dialog -->
+    <dimen name="soldiawid">380dp</dimen>
+    <dimen name="soldiaheight">180dp</dimen>
+    <dimen name="soltvleft">100dp</dimen>
+    <dimen name="solimgwidth">120dp</dimen>
+    <dimen name="solimgheight">100dp</dimen>
+
+
+           <!-- solution dialog -->
+    <dimen name="cluediawid">380dp</dimen>
+    <dimen name="cluediaheight">180dp</dimen>
+    <dimen name="cluetvleft">120dp</dimen>
+    <dimen name="clueimgwidth">120dp</dimen>
+    <dimen name="clueimgheight">100dp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So Sweet Baby"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baby"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/baby"
+
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:background="@drawable/kiss"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="175dp"
+        android:id="@+id/kiss"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:visibility="gone"/>
+
+</RelativeLayout>
